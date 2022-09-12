@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet"   href="./src/css/style.css">
+    <link rel="stylesheet"   href="./src/css/responsivo.css">
+  
+    <title>Projeto Pokémon Slider - MapaDev Week</title>
+
+    <!-- Inclui ícone na aba do navegador -->
+    <link rel="shortcut icon" href="./src/images/pokebola.png" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+        <hearder class="cabecalho">
+            
+            <img class="pokebola" src="./src/images/pokebola.png" alt="Imagem de uma pokebola" />
+
+            <h1 class="titulo">MapaDev Week</h1>
+
+        </hearder>
+
+    <main class="pokemon-slider">
+          
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+              <img src="./src/images/seta.png" alt="Seta voltar">
+        </button>
+        
+        <ul class="pokemons">
+            <li class="cartao selecionado fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Pikachu</h2>
+                    <p class="vida">HP 300</p>
+                </div>
+                <div class="container-imagem"> 
+                    <img src="./src/images/pikachu.png" alt="Pikachu" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                        <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Laborum explicabo quos eveniet corrupti earum! Eius laudantium unde 
+                            itaque totam non? Voluptatem dicta eveniet minima quia atque obcaecati 
+                            deleniti expedita porro.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+            <div class="informacoes">
+                <h2 class="nome">Charizard</h2>
+                <p class="vida">HP 800</p>
+            </div>
+            <div class="container-imagem"> 
+                <img src="./src/images/charizard.png" alt="Charizard" class="imagem-pokemon">
+            </div>
+
+            <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                    <p class="texto"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Laborum explicabo quos eveniet corrupti earum! Eius laudantium unde 
+                        itaque totam non? Voluptatem dicta eveniet minima quia atque obcaecati 
+                        deleniti expedita porro. </p>
+            </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Mewtowo</h2>
+                    <p class="vida">HP 1200</p>
+                </div>
+                <div class="container-imagem"> 
+                    <img src="./src/images/mewtwo.png" alt="Mewtowo" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                        <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Laborum explicabo quos eveniet corrupti earum! Eius laudantium unde 
+                            itaque totam non? Voluptatem dicta eveniet minima quia atque obcaecati 
+                            deleniti expedita porro.</p>
+                </div>
+           </li>
+          
+
+            
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="./src/images/seta.png" alt="Seta avançar">
+            
+        </button>
+    </main>
+    
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
